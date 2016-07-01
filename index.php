@@ -14,7 +14,7 @@
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="assests/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
-    <link href="assests/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="assests/css/jquery.bxslider.css" rel="stylesheet" >
     <!-- Custom CSS -->
     <link href="assests/css/freelancer.css" rel="stylesheet">
 
@@ -79,12 +79,13 @@
     </nav>
     <div class="container">
     <div class="jumbotron">
+    <h1 class="h1">WELCOME TO HOGWARTS HIGH SCHOOL</h1>
       
       <ul class="bxslider">
-  <li><img src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" /></li>
-  <li><img src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" /></li>
-  <li><img src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" /></li>
-  <li><img src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" /></li>
+  <li><img class="image-responsive" src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" title="Funky students" /></li>
+  <li><img class="image-responsive" src="http://www.easy-fundraising-ideas.com/images-v6/high-school-students.jpg" title="The long and winding road" /></li>
+  <li><img class="image-responsive" src="http://apsva.us/wp-content/uploads/legacy_assets/washingtonlee/57de3fc5ff-KS97573.jpg" title="Happy trees" /></li>
+  <li><img class="image-responsive" src="http://www.gocollege.com/images/preparing-for-college-in-high-school.jpg" title="The long and winding road" /></li>
 </ul>
 </div>
     <!-- jQuery -->
@@ -95,7 +96,11 @@
     <script src="assests/js/jquery.bxslider.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-  $('.bxslider').bxSlider();
+  $('.bxslider').bxSlider( {
+    captions: true,
+    auto:true,
+    autoControl:true
+  });
 });
     </script>
 
