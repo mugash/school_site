@@ -14,9 +14,7 @@
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="assests/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
-    <link href="assests/css/unslider.css">
-    <link href="assests/css/unslider-dots.css">
-
+    <link href="assests/css/jquery.bxslider.css" rel="stylesheet" />
     <!-- Custom CSS -->
     <link href="assests/css/freelancer.css" rel="stylesheet">
 
@@ -80,58 +78,28 @@
         <!-- /.container-fluid -->
     </nav>
     <div class="container">
-  <div class="jumbotron">
-    <div class="container">
-      <section class="banner">
-		<ul>
-			<li>
-				<div class="slide-text">
-					<h1>Unslider Example</h1>
-					<p>More advanced options</p>
-				</div>
-				<img src="images/http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" alt="Pen and ink painting">
-			</li>
-			<li>
-				<div class="slide-text">
-					<p>You can show the dots on the bottom, along with other options.</p>
-					<p>This slider is set to fill the page width.</p>
-				</div>
-				<img src="images/http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" alt="Pen and ink painting">
-			</li>
-			<li>
-				<div class="slide-text">
-					<p>Sewing machines by KJ James.</p>
-					<p><a href="http://artsaintjames.com" title="KJ James">artsaintjames.com</a></p>
-				</div>
-				<img src="images/http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" alt="Pen and ink painting">
-			</li>
-		</ul>
-	</section>
+    <div class="jumbotron">
+      
+      <ul class="bxslider">
+  <li><img src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" /></li>
+  <li><img src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" /></li>
+  <li><img src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" /></li>
+  <li><img src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" /></li>
+</ul>
 </div>
     <!-- jQuery -->
     <script src="assests/js/jquery-1.12.3.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="assests/js/bootstrap.min.js"></script>
+    <script src="assests/js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+    </script>
 
-    <!--script to add slider on page-->
-    <script src="assests/jsunslider-min.js"></script>
-    <script>
-		$(function() {
-			$('.banner').unslider({
-				autoplay: true,           //  Automatically start the slideshow
-				speed: 1000,              //  The speed to animate each slide (in milliseconds)
-				delay: 6000,              //  The delay between slide animations (in milliseconds)
-				nav: true,                //  Generate an automatic clickable navigation for each slide in your slider
-				infinite: true,
-				animation: 'fade',        // 	How Unslider animates each slide
-				                          //  	'horizontal', which moves the slides from left-to-right
-				                          //  	'vertical', which moves the slides from top-to-bottom
-				                          //  	'fade', which crossfades slides
-				arrows: true             //  Show the nav arrows
-			});
-		});
-	</script>
+
 
   </body>
   </html>
