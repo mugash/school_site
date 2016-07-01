@@ -53,7 +53,7 @@ function get_news(){
     }
     if($result-> num_rows > 0){
         while($row=$result->fetch_assoc()){
-            return "Welcome".$row['Data'];
+            return $row;
         }
     }else{
         echo "0 news result";
@@ -87,18 +87,18 @@ function get_staff(){
     }
     if($result->num_rows>0){
         while($row=$result->fetch_assoc()){
-            return $row["Name"] .$row["Job"];
+            return $row;
         }
     }else{
         echo "0 no data";
     }
 }
 
-getstudentby("Duncan",$conn);
-login_Student("Duncan",123456789);
-login_student("The",2345);
-echo get_staff();
-echo get_news();
+//getstudentby("Duncan",$conn);
+//login_Student("Duncan",123456789);
+//login_student("The",2345);
+//echo get_staff();
+//echo get_news();
 //$conn->close();
 ?>
 
