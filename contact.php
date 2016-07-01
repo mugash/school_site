@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hogwarts High School</title>
+    <title>Contact Us-Hogwarts High School</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="assests/css/bootstrap.min.css" rel="stylesheet">
@@ -130,7 +130,7 @@
 <!-- Text input-->
        
 <div class="form-group">
-  <label class="col-md-4 control-label">Phone #</label>  
+  <label class="col-md-4 control-label">Phone </label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
