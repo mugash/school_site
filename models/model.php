@@ -10,17 +10,6 @@ function connect(){
 	if ($conn->connect_error) {
 	    die("Connection failed: " . $conn->connect_error);
 	} 
-
-	$sql = "SELECT * FROM Student";
-	$result = $conn->query($sql);
-	if ($result->num_rows > 0) {
-	    // output data of each row
-	    while($row = $result->fetch_assoc()) {
-	        echo "id: " . $row["ID"]. " - Name: " . $row["Name"]."<br>";
-	    }
-	} else {
-	    echo "0 results";
-	}
 	return $conn;	
 }
 function validate_student($name_from_user,$adm_from_user,$a){
@@ -28,7 +17,7 @@ function validate_student($name_from_user,$adm_from_user,$a){
 	$result=$a->query($sql);
 	$row = $result->fetch_assoc();
 	if($row["Name"]==$name_from_user){
-		echo "success<br/>";
+		return $row;
 	}
 	else{
 		echo "failure";
@@ -61,12 +50,12 @@ function get_staff($a){
 	}
 	return $row;
 }
-$b=connect();
-validate_student("joshua",4195,$b);
-$c=get_all_news($b);
-$d=get_events($b);
-$e=get_staff($b);
-echo $d['Decription']."<br/>";
-echo $c['Data']."<br/>";
-echo $e['Name'].$e['Job'].$e['Profile']."<br/>";
+ $b=connect();
+// validate_student("joshua",4195,$b);
+// $c=get_all_news($b);
+// $d=get_events($b);
+// $e=get_staff($b);
+// echo $d['Decription']."<br/>";
+// echo $c['Data']."<br/>";
+// echo $e['Name'].$e['Job'].$e['Profile']."<br/>";
 ?>
