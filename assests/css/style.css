@@ -27,3 +27,9 @@ body {
   .img-responsive {
     width: 100%;
   }
+ .list-group a {
+  color: black !important;
+ }
+.row {
+  height : 100px;
+}

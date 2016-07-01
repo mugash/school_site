@@ -88,6 +88,39 @@
   <li><img class="image-responsive" src="http://www.gocollege.com/images/preparing-for-college-in-high-school.jpg" title="The long and winding road" /></li>
 </ul>
 </div>
+<div class="row">
+<div class="col-sm-4">
+<h2 class="h2">Our School</h2>
+<hr>
+<a href="#" class="thumbnail">
+      <img src="http://i.huffpost.com/gen/1760918/images/o-HIGH-SCHOOL-BUILDING-facebook.jpg" alt="Thumbnail">
+    </a>
+<p>Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding
+Use rows to create horizontal groups of columns
+Content should be placed within columns, and only columns may be immediate children of rows
+Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts
+Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on .rows
+Grid columns are created by specifying the number of 12 available columns you wish to span. For example, three equal columns would use three .col-sm-4
+</p>
+<hr>
+</div>
+<div class="col-sm-4">
+    <h2 class="h2">Upcoming events</h2>
+    <hr>
+    <ul class="list-group">
+   <a href="#"><li class="list-group-item">
+  Spring 2017 term begin</a>
+ <h4><small>January 17 2017</small></h4>
+  </li>
+  <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
+  <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
+  <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
+  <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
+  <li class="list-group-item text-center "><button type="button" class="btn btn-success">View More</button></li>
+</ul>
+</div>
+    
+</div>
     <!-- jQuery -->
     <script src="assests/js/jquery-1.12.3.min.js"></script>
 
