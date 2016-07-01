@@ -10,7 +10,7 @@ body {
   }
   .jumbotron {
     background-color: #eee;
-    padding-top: 100px;
+    padding-top: 150px;
   }
   #about {
     color: black;
@@ -21,4 +21,9 @@ body {
   }
   #contact {
     padding-top: 75px;
+  }
+  /* Set the height of your slider to the height of your images */
+	
+  .img-responsive {
+    width: 100%;
   }
