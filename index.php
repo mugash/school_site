@@ -66,7 +66,7 @@
                         <a href="#contact">Students</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact Us</a>
+                        <a href="views/contact.php">Contact Us</a>
                     </li>
                     <li class="page-scroll">
                     <a href="#"><button type="button" class="btn btn-success">Login</button></a>
