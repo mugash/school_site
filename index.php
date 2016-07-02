@@ -14,9 +14,7 @@
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="assests/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
-    <link href="assests/css/unslider.css">
-    <link href="assests/css/unslider-dots.css">
-
+    <link href="assests/css/jquery.bxslider.css" rel="stylesheet" >
     <!-- Custom CSS -->
     <link href="assests/css/freelancer.css" rel="stylesheet">
 
@@ -68,7 +66,7 @@
                         <a href="#contact">Students</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact Us</a>
+                        <a href="views/contact.php">Contact Us</a>
                     </li>
                     <li class="page-scroll">
                     <a href="#"><button type="button" class="btn btn-success">Login</button></a>
@@ -80,58 +78,66 @@
         <!-- /.container-fluid -->
     </nav>
     <div class="container">
-  <div class="jumbotron">
-    <div class="container">
-      <section class="banner">
-		<ul>
-			<li>
-				<div class="slide-text">
-					<h1>Unslider Example</h1>
-					<p>More advanced options</p>
-				</div>
-				<img src="images/http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" alt="Pen and ink painting">
-			</li>
-			<li>
-				<div class="slide-text">
-					<p>You can show the dots on the bottom, along with other options.</p>
-					<p>This slider is set to fill the page width.</p>
-				</div>
-				<img src="images/http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" alt="Pen and ink painting">
-			</li>
-			<li>
-				<div class="slide-text">
-					<p>Sewing machines by KJ James.</p>
-					<p><a href="http://artsaintjames.com" title="KJ James">artsaintjames.com</a></p>
-				</div>
-				<img src="images/http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" alt="Pen and ink painting">
-			</li>
-		</ul>
-	</section>
+    <div class="jumbotron">
+    <h1 class="h1">WELCOME TO HOGWARTS HIGH SCHOOL</h1>
+      
+      <ul class="bxslider">
+  <li><img class="image-responsive" src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" title="Funky students" /></li>
+  <li><img class="image-responsive" src="http://www.easy-fundraising-ideas.com/images-v6/high-school-students.jpg" title="The long and winding road" /></li>
+  <li><img class="image-responsive" src="http://apsva.us/wp-content/uploads/legacy_assets/washingtonlee/57de3fc5ff-KS97573.jpg" title="Happy trees" /></li>
+  <li><img class="image-responsive" src="http://www.gocollege.com/images/preparing-for-college-in-high-school.jpg" title="The long and winding road" /></li>
+</ul>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<h2 class="h2">Our School</h2>
+<hr>
+<a href="#" class="thumbnail">
+      <img src="http://i.huffpost.com/gen/1760918/images/o-HIGH-SCHOOL-BUILDING-facebook.jpg" alt="Thumbnail">
+    </a>
+<p>Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding
+Use rows to create horizontal groups of columns
+Content should be placed within columns, and only columns may be immediate children of rows
+Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts
+Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on .rows
+Grid columns are created by specifying the number of 12 available columns you wish to span. For example, three equal columns would use three .col-sm-4
+</p>
+<hr>
+</div>
+<div class="col-sm-4">
+    <h2 class="h2">Upcoming events</h2>
+    <hr>
+    <ul class="list-group">
+   <a href="#"><li class="list-group-item">
+  Spring 2017 term begin</a>
+ <h4><small>January 17 2017</small></h4>
+  </li>
+  <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
+  <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
+  <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
+  <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
+  <li class="list-group-item text-center "><button type="button" class="btn btn-success">View More</button></li>
+</ul>
+</div>
+    
 </div>
     <!-- jQuery -->
     <script src="assests/js/jquery-1.12.3.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="assests/js/bootstrap.min.js"></script>
+    <script src="assests/js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+  $('.bxslider').bxSlider( {
+    captions: true,
+    auto:true,
+    autoControl:true
+  });
+});
+    </script>
 
-    <!--script to add slider on page-->
-    <script src="assests/jsunslider-min.js"></script>
-    <script>
-		$(function() {
-			$('.banner').unslider({
-				autoplay: true,           //  Automatically start the slideshow
-				speed: 1000,              //  The speed to animate each slide (in milliseconds)
-				delay: 6000,              //  The delay between slide animations (in milliseconds)
-				nav: true,                //  Generate an automatic clickable navigation for each slide in your slider
-				infinite: true,
-				animation: 'fade',        // 	How Unslider animates each slide
-				                          //  	'horizontal', which moves the slides from left-to-right
-				                          //  	'vertical', which moves the slides from top-to-bottom
-				                          //  	'fade', which crossfades slides
-				arrows: true             //  Show the nav arrows
-			});
-		});
-	</script>
+
 
   </body>
   </html>

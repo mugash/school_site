@@ -94,12 +94,17 @@ function get_staff(){
     }
 }
 
-//getstudentby("Duncan",$conn);
-//login_Student("Duncan",123456789);
-//login_student("The",2345);
-//echo get_staff();
-//echo get_news();
-//$conn->close();
+
+function add_contacts($firstname,$lastname,$email,$phone,$address,$city,$message){
+    $sql="insert into Contacts(Firstname,Lastname,Email,Phone,Addr,Town,Message) values('$firstname','$lastname','$email','$phone','$address','$city','$message') ";
+        global $conn;
+    if($conn->query($sql)==True){
+        return True;
+    }else{
+        echo "Error:".$sql."<br>".$conn->error;
+        return False;
+    }
+}
 ?>
 
 
