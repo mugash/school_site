@@ -85,7 +85,7 @@
     </nav>
 <div class="container containerform">
 
-    <form class="well form-horizontal" action="" method="post"  id="contact_form">
+    <form class="well form-horizontal" action="controler/contact.php" method="post"  id="contact_form">
 <fieldset>
 
 <!-- Form Name -->
@@ -94,7 +94,7 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-4 control-label">First Name</label>  
+  <label class="col-md-4 control-label"name="firstname">First Name</label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -106,7 +106,7 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-4 control-label" >Last Name</label> 
+  <label class="col-md-4 control-label"name="last_name">Last Name</label> 
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -117,7 +117,7 @@
 
 <!-- Text input-->
        <div class="form-group">
-  <label class="col-md-4 control-label">E-Mail</label>  
+  <label class="col-md-4 control-label"name="Email">E-Mail</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -130,7 +130,7 @@
 <!-- Text input-->
        
 <div class="form-group">
-  <label class="col-md-4 control-label">Phone #</label>  
+  <label class="col-md-4 control-label"name="phone">Phone #</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -142,7 +142,7 @@
 <!-- Text input-->
       
 <div class="form-group">
-  <label class="col-md-4 control-label">Address</label>  
+  <label class="col-md-4 control-label"name="adress">Address</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
@@ -154,7 +154,7 @@
 <!-- Text input-->
  
 <div class="form-group">
-  <label class="col-md-4 control-label">City/Town</label>  
+  <label class="col-md-4 control-label"name="city">City/Town</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
@@ -164,15 +164,10 @@
 </div>
 
 
-
-
-
-
-
 <!-- Text area -->
   
 <div class="form-group">
-  <label class="col-md-4 control-label">Your Message</label>
+  <label class="col-md-4 control-label"name="message">Your Message</label>
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
@@ -188,7 +183,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label"></label>
   <div class="col-md-4 text-center">
-    <button type="submit" class="btn btn-warning " >Send <span class="glyphicon glyphicon-send"></span></button>
+    <button type="submit" class="btn btn-warning"type="get">Send <span class="glyphicon glyphicon-send"></span></button>
   </div>
 </div>
 

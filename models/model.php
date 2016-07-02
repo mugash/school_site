@@ -50,6 +50,10 @@ function get_staff($a){
 	}
 	return $row;
 }
+function add_contact($firsname,$lastname,$email,$phone,$address,$city,$message,$a){
+	$sql="insert into contacts(first_name,last_name,email,phone,adress,town,message) values('$firsname','$lastname','$email','$phone','$address','$city','$message')";
+	$result=$a->query($sql);
+}
  $b=connect();
 // validate_student("joshua",4195,$b);
 // $c=get_all_news($b);
