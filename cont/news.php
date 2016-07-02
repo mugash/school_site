@@ -2,8 +2,6 @@
 
 require '../models/models.php';
 
-$news=get_news();
-
-echo json_encode($news);
+echo json_encode(get_news());
 
 ?>

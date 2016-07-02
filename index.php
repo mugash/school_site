@@ -32,8 +32,46 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-</head>
 
+</head>
+<script>
+var getJSON = function(url, callback) {
+        var xhr = new XMLHttpRequest();
+            xhr.open("get", url, true);
+            xhr.responseType = "json";
+            xhr.onload = function() {
+            var status = xhr.status;
+            if (status == 200) {
+                callback(null, xhr.response);
+            } else {
+                callback(status);
+            }
+        };
+    xhr.send();
+    };
+            getJSON("http://localhost/school_site/cont/news.php",function(err, data) {
+          if (err != null) {
+              alert("Something went wrong: " + err);
+          } else {
+              var toAdd=document.createDocumentFragment();
+              for(i=0;i<=data.length;i++){
+                  var newDiv =document.createElement('div');
+                  newDiv.id='show-data'+i;
+                  newDiv.classNmae="listgroup";
+                  toAdd.appendChild(newDiv);
+              }
+              document.appendChild(toAdd);
+              document.getElementById('fil').appendChild(toAdd);
+                $('<div id="r'+i+'" class="ansbox"></div>').appendTo("target");
+              var div = document.getElementById('show-data');
+              div.innerHTML = div.innerHTML + data[i].Title+data[i].Data;
+              //  alert("ID is"+data[1].ID+" Title is "+data[1].Title);
+              }
+        }
+            });
+
+
+</script>
 <body id="page-top" class="index">
 
     <!-- Navigation -->
@@ -112,14 +150,14 @@ Grid columns are created by specifying the number of 12 available columns you wi
   Spring 2017 term begin</a>
  <h4><small>January 17 2017</small></h4>
   </li>
+  <a href="#"><li class="list-group-item" id="add-data">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
   <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
   <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
   <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
-  <a href="#"><li class="list-group-item">Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts</a><h4><small>January 17 2017</small></h4></li>
-  <li class="list-group-item text-center "><button type="button" class="btn btn-success">View More</button></li>
+  <li class="list-group-item text-center "><button type="button" id="get-data" class="btn btn-success">View More</button></li>
 </ul>
 </div>
-    
+    <div id="fil"></div>
 </div>
     <!-- jQuery -->
     <script src="assests/js/jquery-1.12.3.min.js"></script>
@@ -135,9 +173,6 @@ Grid columns are created by specifying the number of 12 available columns you wi
     autoControl:true
   });
 });
-    </script>
-
-
-
+</script>
   </body>
   </html>

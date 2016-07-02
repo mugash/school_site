@@ -36,9 +36,8 @@ function login_Student($name,$adnum){
         echo "No Data";
     }
     if($result-> num_rows >0){
-        while($row=$result->fetch_assoc()){
+        $row=$result->fetch_all(MYSQLI_ASSOC);
             echo "Welcome ".$row['Name'];
-        }
     }
 }
 
@@ -52,9 +51,8 @@ function get_news(){
         return "Data Table news";
     }
     if($result-> num_rows > 0){
-        while($row=$result->fetch_assoc()){
-            return $row;
-        }
+    $row=$result->fetch_all(MYSQLI_ASSOC);
+     return $row;  
     }else{
         echo "0 news result";
     }
@@ -69,9 +67,8 @@ function get_events(){
         return "No Table";
     }
     if($result->num_rows>0){
-        while($row=$result->fetch_assoc()){
-            return $row["Name"];
-        }
+        $row=$result->fetch_all(MYSQLI_ASSOC);
+        return $row;
     }else{
         echo "0 new result";
     }
@@ -86,9 +83,8 @@ function get_staff(){
         return "No table";
     }
     if($result->num_rows>0){
-        while($row=$result->fetch_assoc()){
-            return $row;
-        }
+        $row=$result->fetch_all(MYSQLI_ASSOC);
+        return $row;
     }else{
         echo "0 no data";
     }
