@@ -9,26 +9,27 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Login - Hogwarts High School</title>
+    <title>Our History - Hogwarts High School</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="../assests/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css">
     <!-- Custom CSS -->
     <link href="../assests/css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
   <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?fami  ly=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <!--Custom css -->
     <link href="../assests/css/footer-distributed-with-address-and-phones.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assests/css/style.css">
-    <link rel="stylesheet" href="../assests/css/login.css">
-    <!-- HTML5 Shim and Respond.js IE8 sup
-    port of HTML5 elements and media queries -->
+      <link href="../assests/css/style.css" rel="stylesheet">
+      <link href="../assests/css/thumbnail-gallery.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -37,7 +38,7 @@
 
 </head>
 
-<body>
+<body id="page-top" class="index">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -50,14 +51,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.php">Hogwarts High</a>
+                <a class="navbar-brand" href="#page-top">Hogwarts High</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="../index.php"></a>
+                        <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
                         <a href="#portfolio">About Our School</a>
@@ -69,48 +70,99 @@
                         <a href="#contact">Students</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact Us</a>
+                        <a href="contact.php">Contact Us</a>
                     </li>
                     <li class="page-scroll">
-                    <a href="#"><button type="button" class="btn btn-success">Login</button></a>
+                    <a href="views/login.php"><button type="button" class="btn btn-success">Login</button></a>
                   </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
-    </nav> 
-  </head>
+    </nav>
 
-  <body>
+    <!-- Page Content -->
+    <div class="container">
 
-      <div class="wrapper">
-    <form class="form-signin" action="../controler/student_login.php" method="post">       
-      <h2 class="form-signin-heading">Student login</h2>
-      <input type="text" class="form-control" name="username" placeholder="Name" required="" autofocus="" />
-       <input type="text" class="form-control" name="regno" placeholder="Registration Number" required="" autofocus="" />
-      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
-      <label class="checkbox">
-        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
-      </label>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
-      <style type="text/css">
-          span {
-                 color: #ffffff;
-          }
-      </style>
-      <p>Don't have an account yet?<br><a href="register.php"><span>Register Here</span></a></p>
-    </form>
-  </div>
-    
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Thumbnail Gallery</h1>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+        </div>
+
+        <hr>
     <footer class="footer-distributed" style="background-color: #2c3e50;">
 
       <div class="footer-left">
 
-        <a href="index.php"><h3><span>HOGWARTS</span> HIGH</h3></a> 
+        <a href="index.php"><h3><span>HOGWARTS</span> HIGH</h3></a>
 
         <p class="footer-links">
-          <a href="../index.php">Home</a>.
+          <a href="index.php">Home</a>
+          .
           <a href="#">About Our School</a>
           ·
           <a href="#">Departments</a>
@@ -152,7 +204,7 @@
 
           <a href="#"><i class="fa fa-facebook"></i></a>
           <a href="#"><i class="fa fa-twitter"></i></a>
-          
+
 
         </div>
 
@@ -162,10 +214,8 @@
     <!-- jQuery -->
     <script src="../assests/js/jquery-1.12.3.min.js"></script>
 
+
     <!-- Bootstrap Core JavaScript -->
     <script src="../assests/js/bootstrap.min.js"></script>
-    
-    
-    
-  </body>
-</html>
+    </body>
+    </html>
