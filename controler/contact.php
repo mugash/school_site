@@ -9,5 +9,6 @@ $_SERVER["REQUEST_METHOD"]=="POST";
 	$city=$_POST['city'];
 	$message=$_POST['comment'];
 	add_contact($first_name,$last_name,$email,$phone,$adress,$city,$message,$b);
-echo '../index.php';
+ 	header("Location:../index.php");
+
 ?>

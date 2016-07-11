@@ -130,7 +130,7 @@
 <!-- Text input-->
        
 <div class="form-group">
-  <label class="col-md-4 control-label"name="phone">Phone #</label>  
+  <label class="col-md-4 control-label">Phone #</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -142,7 +142,7 @@
 <!-- Text input-->
       
 <div class="form-group">
-  <label class="col-md-4 control-label"name="adress">Address</label>  
+  <label class="col-md-4 control-label">Address</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
@@ -154,7 +154,7 @@
 <!-- Text input-->
  
 <div class="form-group">
-  <label class="col-md-4 control-label"name="city">City/Town</label>  
+  <label class="col-md-4 control-label">City/Town</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
@@ -167,7 +167,7 @@
 <!-- Text area -->
   
 <div class="form-group">
-  <label class="col-md-4 control-label"name="message">Your Message</label>
+  <label class="col-md-4 control-label">Your Message</label>
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>

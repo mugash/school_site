@@ -17,10 +17,10 @@ function validate_student($name_from_user,$adm_from_user,$a){
 	$result=$a->query($sql);
 	$row = $result->fetch_assoc();
 	if($row["Name"]==$name_from_user){
-		return $row;
+		return true;
 	}
 	else{
-		echo "failure";
+		return false;
 	}
 }
 function get_all_news($a){
