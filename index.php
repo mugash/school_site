@@ -3,19 +3,19 @@ require 'header.php';
  ?>
     <div class="container">
     <div class="jumbotron">
-    <h1 class="h1">WELCOME TO HOGWARTS HIGH SCHOOL</h1>
+    <h2 class="text-center">WELCOME TO HOGWARTS HIGH SCHOOL</h2>
 
       <ul class="bxslider">
   <li><img class="image-responsive" src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" title="Funky students" /></li>
-  <li><img class="image-responsive" src="http://www.easy-fundraising-ideas.com/images-v6/high-school-students.jpg" title="The long and winding road" /></li>
-  <li><img class="image-responsive" src="http://apsva.us/wp-content/uploads/legacy_assets/washingtonlee/57de3fc5ff-KS97573.jpg" title="Happy trees" /></li>
-  <li><img class="image-responsive" src="http://www.gocollege.com/images/preparing-for-college-in-high-school.jpg" title="The long and winding road" /></li>
+  <li><img class="image-responsive" src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" title="The long and winding road" /></li>
+  <li><img class="image-responsive" src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" title="Happy trees" /></li>
+  <li><img class="image-responsive" src="http://p2phelps.org/wp-content/uploads/2014/11/HS-Students.jpg" title="The long and winding road" /></li>
 </ul>
 </div>
 <div class="row .row-eq-height">
 <div class="col-sm-4">
 <h2 class="h2">Our School</h2>
-<hr>
+<hr class="star-primary">
 <a href="#" class="thumbnail">
       <img src="http://i.huffpost.com/gen/1760918/images/o-HIGH-SCHOOL-BUILDING-facebook.jpg" alt="Our School">
     </a>
@@ -29,7 +29,7 @@ jhuysdhiuhsdkoi
 </div>
 <div class="col-sm-4">
     <h2 class="h2">Upcoming events</h2>
-    <hr>
+    <hr class="star-primary">
     <ul class="list-group">
    <a href="#"><li class="list-group-item">
   Spring 2017 term begin</a>
@@ -44,7 +44,7 @@ jhuysdhiuhsdkoi
 </div>
 <div class="col-sm-4">
     <h2 class="h2">Latest News</h2>
-    <hr>
+    <hr class="star-primary">
     <ul class="list-group">
    <a href="#"><li class="list-group-item">
   One of our students joins Al-shabaab</a>
@@ -60,7 +60,8 @@ jhuysdhiuhsdkoi
 </div>
  <div class="row .row-eq-height">
  <div class="col-xs-4">
- <h3>Admissions</h3>
+ <h3 class="text-center">Admissions</h3>
+ <hr class="star-primary">
  <a href="#" class="thumbnail">
       <img src="http://www.princehenrys.worcs.sch.uk/wp-content/uploads/2012/10/20130912-Year-9s-2.jpg" alt="Students on the bench">
     </a>
@@ -75,7 +76,8 @@ Get ready to apply to high school this fall by taking these next steps:</p>
     <p>
     </p>
     <div class="col-xs-4">
- <h3>Academics</h3>
+ <h3 class="text-center">Academics</h3>
+ <hr class="star-primary">
  <a href="#" class="thumbnail">
       <img src="http://www.princehenrys.worcs.sch.uk/wp-content/uploads/2012/10/20130912-Year-9s-2.jpg" alt="Students on the bench">
     </a>
@@ -90,7 +92,8 @@ Get ready to apply to high school this fall by taking these next steps:</p>
     <p>
     </p>
     <div class="col-xs-4">
- <h3>School Life</h3>
+ <h3 class="text-center">School Life</h3>
+ <hr class="star-primary">
  <a href="#" class="thumbnail">
       <img src="http://www.princehenrys.worcs.sch.uk/wp-content/uploads/2012/10/20130912-Year-9s-2.jpg" alt="Students on the bench">
     </a>

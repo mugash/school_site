@@ -83,75 +83,142 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
+    <style>
+  .thumb {
+    padding-top: 70px;
+  }
+    </style>
+
+    <div class="container thumb">
 
         <div class="row">
 
             <div class="col-lg-12">
-                <h1 class="page-header">Thumbnail Gallery</h1>
+                <h1 class="page-header">THE BOND OF MANAGEMENT</h1>
             </div>
+            <br>
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>chair</p>
+       </div>
+       </p>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>
+         Chairman </p>
+       </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>
+         Chairman </p>
+       </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>
+         Chairman </p>
+       </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>
+         Chairman </p>
+       </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>
+         Chairman </p>
+       </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>
+         Chairman </p>
+       </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>
+         Chairman </p>
+       </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>
+         Chairman </p>
+       </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>
+         Chairman </p>
+       </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>Chairman </p>
+       </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" alt="">
+                    <div class="caption">
+       <h3>Mr.Simba</h3>
+       <p>
+         Chairman </p>
+       </div>
                 </a>
             </div>
         </div>
+      </div>
 
         <hr>
     <footer class="footer-distributed" style="background-color: #2c3e50;">

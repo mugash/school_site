@@ -9,17 +9,17 @@
 
   <div class="footer-left">
 
-    <a href="index.php"><h3><span>HOGWARTS</span> HIGH</h3></a>
+    <a href="../index.php"><h3><span>HOGWARTS</span> HIGH</h3></a>
 
     <p class="footer-links">
-      <a href="index.php">Home</a>
+      <a href="../index.php">Home</a>
       .
-      <a href="#">About Our School</a>
+      <a href="history.php">About Our School</a>
       ·
       <a href="#">Departments</a>
       ·
       <a href="#">Students</a>
-      <a href="views/contact.php">Contact Us</a>
+      <a href="contact.php">Contact Us</a>
     </p>
 
     <p class="footer-company-name">Hogwarts High &copy; 2016</p>
@@ -63,11 +63,10 @@
 
 </footer>
 <!-- jQuery -->
-<script src="assests/js/jquery-1.12.3.min.js"></script>
 <script src="../assests/js/jquery-1.12.3.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="assests/js/bootstrap.min.js"></script>
+<script src="../assests/js/bootstrap.min.js"></script>
 <script>
 $('nav li').hover(
   function() {

@@ -139,7 +139,7 @@
 			    				</div>
 			    			</div>
 			    			
-			    			<input type="submit" value="Register" class="btn btn-info btn-block">
+			    			<input type="submit" value="Register" class="btn btn-success btn-block">
 			    		
 			    		</form>
 			    	</div>

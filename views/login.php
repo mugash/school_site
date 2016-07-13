@@ -99,7 +99,7 @@
                  color: #ffffff;
           }
       </style>
-      <p>Don't have an account yet?<br><a href="register.php"><span>Register Here</span></a></p>
+      <p>Don't have an account yet?<br><a href="register.php"><span class="text-info">Register Here</span></a></p>
     </form>
   </div>
     

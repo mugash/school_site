@@ -12,13 +12,13 @@
     <title>Hogwarts High School</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-     <link href="assests/css/footer-distributed-with-address-and-phones.css" rel="stylesheet">
-    <link href="assests/css/bootstrap.min.css" rel="stylesheet">
+     <link href="../assests/css/footer-distributed-with-address-and-phones.css" rel="stylesheet">
+    <link href="../assests/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css">
-    <link href="assests/css/jquery.bxslider.css" rel="stylesheet" >
+    <!-- <link rel="stylesheet" type="text/css" href="http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css"> -->
+    <link href="../assests/css/jquery.bxslider.css" rel="stylesheet" >
     <!-- Custom CSS -->
-    <link href="assests/css/freelancer.css" rel="stylesheet">
+    <link href="../assests/css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -28,7 +28,7 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <!--Custom css -->
    
-      <link href="assests/css/style.css" rel="stylesheet">
+      <link href="../assests/css/style.css" rel="stylesheet">
       <style type="text/css">
       nav ul li a {
  transition: 0.3s linear;
@@ -56,7 +56,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php">Hogwarts High School</a>
+      <a class="navbar-brand" href="../index.php">Hogwarts High School</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,16 +65,16 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Our School <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="views/history.php"><span class="text-info">Our history</span></a></li>
-            <li><a href="views/the_bom.php"><span class="text-info">The Board Of Management</span></a></li>
+            <li><a href="history.php"><span class="text-info">Our history</span></a></li>
+            <li><a href="the_bom.php"><span class="text-info">The Board Of Management</span></a></li>
             <li><a href="#"><span class="text-info">The Teaching Staff</span></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Departments<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="views/boardingdepartment.php"><span class="text-info">The Boarding department</span></a></li>
-            <li><a href="views/the_bom.php"><span class="text-info">Club and Societies</span></a></li>
+            <li><a href="boardingdepartment.php"><span class="text-info">The Boarding department</span></a></li>
+            <li><a href="the_bom.php"><span class="text-info">Club and Societies</span></a></li>
             <li><a href="#"><span class="text-info">Games</span></a></li>
             <li><a href="#"><span class="text-info">Guidance and Counseling</span></a></li>
             <li><a href="#"><span class="text-info">Humanities</span></a></li>
@@ -87,20 +87,20 @@
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Students<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="views/history.php"><span class="text-info">Student's Portal</span></a></li>
-            <li><a href="views/the_bom.php"><span class="text-info">Students Hall Of Fame</span></a></li>
+            <li><a href="#"><span class="text-info">Student's Portal</span></a></li>
+            <li><a href="#"><span class="text-info">Students Hall Of Fame</span></a></li>
             <li><a href="#"><span class="text-info">Previous K.C.S.E Results</span></a></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News & Events<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News and Events<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="views/history.php"><span class="text-info">News</span></a></li>
-            <li><a href="views/the_bom.php"><span class="text-info">Events</span></a></li>
+            <li><a href="#"><span class="text-info">News</span></a></li>
+            <li><a href="#"><span class="text-info">Events</span></a></li>
             <li><a href="#"><span class="text-info">Tenders</span></a></li>
           </ul>
         </li>
-        <li><a href="views/contact.php">Contact Us</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
