@@ -14,7 +14,7 @@ require 'header.php';
 </div>
 <div class="row .row-eq-height">
 <div class="col-sm-4">
-<h2 class="h2">Our School</h2>
+<h2 class="h2 text-center">Our School</h2>
 <hr class="star-primary">
 <a href="#" class="thumbnail">
       <img src="http://i.huffpost.com/gen/1760918/images/o-HIGH-SCHOOL-BUILDING-facebook.jpg" alt="Our School">
@@ -28,7 +28,7 @@ jhuysdhiuhsdkoi
 <hr>
 </div>
 <div class="col-sm-4">
-    <h2 class="h2">Upcoming events</h2>
+    <h2 class="h2 text-center">Upcoming events</h2>
     <hr class="star-primary">
     <ul class="list-group">
    <a href="#"><li class="list-group-item">
@@ -42,8 +42,9 @@ jhuysdhiuhsdkoi
   <li class="list-group-item text-center "><button type="button" class="btn btn-success">View More</button></li>
 </ul>
 </div>
+
 <div class="col-sm-4">
-    <h2 class="h2">Latest News</h2>
+    <h2 class="h2 text-center">Latest News</h2>
     <hr class="star-primary">
     <ul class="list-group">
    <a href="#"><li class="list-group-item">

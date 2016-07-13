@@ -12,7 +12,7 @@ require 'header.php';
     </style>
 
     <div class="container thumb">
-    <h2>The Board Of Management</h2>
+    <h2>The Non-Teaching Staff</h2>
 
         <div class="row">
 
