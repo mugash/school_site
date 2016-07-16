@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 
     <title>Hogwarts High School</title>
 
@@ -15,7 +16,7 @@
      <link href="assests/css/footer-distributed-with-address-and-phones.css" rel="stylesheet">
     <link href="assests/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css">
+    <!-- <link rel="stylesheet" type="text/css" href="http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css"> -->
     <link href="assests/css/jquery.bxslider.css" rel="stylesheet" >
     <!-- Custom CSS -->
     <link href="assests/css/freelancer.css" rel="stylesheet">
@@ -68,7 +69,6 @@
             <li><a href="views/history.php"><span class="text-info">Our history</span></a></li>
             <li><a href="views/the_bom.php"><span class="text-info">The Board Of Management</span></a></li>
             <li><a href="teaching.php"><span class="text-info">The Teaching Staff</span></a></li>
-            <li><a href="non-teaching.php"><span class="text-info">The Non-Teaching Staff</span></a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -76,29 +76,29 @@
           <ul class="dropdown-menu">
             <li><a href="views/boardingdepartment.php"><span class="text-info">The Boarding department</span></a></li>
             <li><a href="views/the_bom.php"><span class="text-info">Club and Societies</span></a></li>
-            <li><a href="#"><span class="text-info">Games</span></a></li>
-            <li><a href="#"><span class="text-info">Guidance and Counseling</span></a></li>
-            <li><a href="#"><span class="text-info">Humanities</span></a></li>
-            <li><a href="#"><span class="text-info">Languages</span></a></li>
-            <li><a href="#"><span class="text-info">Mathematics</span></a></li>
-            <li><a href="#"><span class="text-info">Sciences</span></a></li>
-            <li><a href="#"><span class="text-info">Technical and Creative</span></a></li>
+            <li><a href="views/games.php"><span class="text-info">Games</span></a></li>
+            <li><a href="views/counsel.php"><span class="text-info">Guidance and Counseling</span></a></li>
+            <li><a href="views/humanites.php"><span class="text-info">Humanities</span></a></li>
+            <li><a href="views/languages.php"><span class="text-info">Languages</span></a></li>
+            <li><a href="views/maths.php"><span class="text-info">Mathematics</span></a></li>
+            <li><a href="views/scie.php"><span class="text-info">Sciences</span></a></li>
+            <li><a href="views/technical.php"><span class="text-info">Technical and Creative</span></a></li>
           </ul>
           </li>
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Students<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="views/history.php"><span class="text-info">Student's Portal</span></a></li>
-            <li><a href="views/the_bom.php"><span class="text-info">Students Hall Of Fame</span></a></li>
-            <li><a href="#"><span class="text-info">Previous K.C.S.E Results</span></a></li>
+            <li><a href="views/login.php"><span class="text-info">Student's Portal</span></a></li>
+            <li><a href="views/HallOfFame.php"><span class="text-info">Students Hall Of Fame</span></a></li>
+            <li><a href="views/results.php"><span class="text-info">Previous K.C.S.E Results</span></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News & Events<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="views/history.php"><span class="text-info">News</span></a></li>
-            <li><a href="views/the_bom.php"><span class="text-info">Events</span></a></li>
-            <li><a href="#"><span class="text-info">Tenders</span></a></li>
+            <li><a href="views/news.php"><span class="text-info">News</span></a></li>
+            <li><a href="views/events.php"><span class="text-info">Events</span></a></li>
+            <li><a href="views/tenders.php"><span class="text-info">Tenders</span></a></li>
           </ul>
         </li>
         <li><a href="views/contact.php">Contact Us</a></li>

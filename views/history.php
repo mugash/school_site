@@ -22,7 +22,7 @@ require 'header.php';
   <h2>Our History</h2>
   <p>FOUNDED IN THE YEAR 1902,HOGWARTS HIGH SCHOOL IS THE OLDEST AND BEST IN THE LAND</P>
 </div>
-  <a class="image-popup-no-margins" href="http://ypsigleanings.aadl.org/files/photos/Union%20School%20Photo%206.jpg" title="This image fits only horizontally.">
+  <a class="image-popup-no-margins" href="http://ypsigleanings.aadl.org/files/photos/Union%20School%20Photo%206.jpg" title="When our school was founded">
   	<style>
     .img-responsive {
     max-width: 75%;
@@ -51,7 +51,7 @@ require 'header.php';
     </style><img align="center" class="img-responsive" src="http://ypsigleanings.aadl.org/files/photos/Union%20School%20Photo%206.jpg"  >
   </a>
 <div class="para1">
-  <p>Nairobi school was initially started in 1902 around the present Nairobi Railways club as a
+  <p>Hogwarts High school was initially started in 1902 around the present Nairobi Railways club as a
      European school to serve the families of the I.B.E.A
       Company and later the white settler community.
        Out of the foresight and wisdom of the late Lord Delamere

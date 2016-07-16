@@ -34,7 +34,7 @@
 
     <div>
       <i class="fa fa-phone"></i>
-      <p>+254 727-021-846</p>
+      <p> <a href="tel:+254727021846">+254 727-021-846</a</p>
     </div>
 
     <div>
@@ -48,8 +48,7 @@
 
     <p class="footer-company-about">
       <span>About Our School</span>
-     We are school ocated in blah blah bhaolks2iudshgs
-    </p>
+     Hogwarts high school is a one of a kind high school with a mission of empowering the society by creating wholistic and all round individuals helpfull to both themselves and the society.</p>
 
     <div class="footer-icons">
 

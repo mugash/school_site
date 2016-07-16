@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 
     <title>Hogwarts High School</title>
 
@@ -68,37 +69,36 @@
             <li><a href="history.php"><span class="text-info">Our history</span></a></li>
             <li><a href="the_bom.php"><span class="text-info">The Board Of Management</span></a></li>
             <li><a href="teaching.php"><span class="text-info">The Teaching Staff</span></a></li>
-            <li><a href="non-teaching.php"><span class="text-info">The Non-Teaching Staff</span></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Departments<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="boardingdepartment.php"><span class="text-info">The Boarding department</span></a></li>
-            <li><a href="the_bom.php"><span class="text-info">Club and Societies</span></a></li>
-            <li><a href="#"><span class="text-info">Games</span></a></li>
-            <li><a href="#"><span class="text-info">Guidance and Counseling</span></a></li>
-            <li><a href="#"><span class="text-info">Humanities</span></a></li>
-            <li><a href="#"><span class="text-info">Languages</span></a></li>
-            <li><a href="#"><span class="text-info">Mathematics</span></a></li>
-            <li><a href="#"><span class="text-info">Sciences</span></a></li>
-            <li><a href="#"><span class="text-info">Technical and Creative</span></a></li>
+            <li><a href="clubs.php"><span class="text-info">Club and Societies</span></a></li>
+            <li><a href="games.php"><span class="text-info">Games</span></a></li>
+            <li><a href="counsel.php"><span class="text-info">Guidance and Counseling</span></a></li>
+            <li><a href="humanites.php"><span class="text-info">Humanities</span></a></li>
+            <li><a href="languages.php"><span class="text-info">Languages</span></a></li>
+            <li><a href="maths.php"><span class="text-info">Mathematics</span></a></li>
+            <li><a href="scie.php"><span class="text-info">Sciences</span></a></li>
+            <li><a href="technical.php"><span class="text-info">Technical and Creative</span></a></li>
           </ul>
           </li>
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Students<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#"><span class="text-info">Student's Portal</span></a></li>
-            <li><a href="#"><span class="text-info">Students Hall Of Fame</span></a></li>
-            <li><a href="#"><span class="text-info">Previous K.C.S.E Results</span></a></li>
+            <li><a href="login.php"><span class="text-info">Student's Portal</span></a></li>
+            <li><a href="HallOfFame.php"><span class="text-info">Students Hall Of Fame</span></a></li>
+            <li><a href="results.php"><span class="text-info">Previous K.C.S.E Results</span></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News and Events<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#"><span class="text-info">News</span></a></li>
-            <li><a href="#"><span class="text-info">Events</span></a></li>
-            <li><a href="#"><span class="text-info">Tenders</span></a></li>
+            <li><a href="news.php"><span class="text-info">News</span></a></li>
+            <li><a href="events.php"><span class="text-info">Events</span></a></li>
+            <li><a href="tenders.php"><span class="text-info">Tenders</span></a></li>
           </ul>
         </li>
         <li><a href="contact.php">Contact Us</a></li>
