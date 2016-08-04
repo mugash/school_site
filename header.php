@@ -69,6 +69,7 @@
             <li><a href="views/history.php"><span class="text-info">Our history</span></a></li>
             <li><a href="views/the_bom.php"><span class="text-info">The Board Of Management</span></a></li>
             <li><a href="teaching.php"><span class="text-info">The Teaching Staff</span></a></li>
+            <li><a href="views/adminlogin.php"><span class="text-info">Staff Portal</span></a></li>
           </ul>
         </li>
         <li class="dropdown">
